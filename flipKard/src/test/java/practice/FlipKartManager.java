@@ -13,12 +13,17 @@ import java.util.concurrent.TimeUnit;
 public class FlipKartManager {
     public static WebDriver driver;
     //private String browser="";
+//hi
+
 
     public void openBrowser(){
         WebDriverManager.chromedriver ().setup ();
          driver=new ChromeDriver();
 
     }
+
+
+
 
     public void navigateTo(String url){
         driver.get(url);
